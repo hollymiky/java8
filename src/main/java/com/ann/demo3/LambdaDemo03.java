@@ -18,11 +18,11 @@ import java.util.List;
 public class LambdaDemo03 {
 
     List<Employee> employees = Arrays.asList(
-            new Employee("张三", 18, 9999),
-            new Employee("里斯", 38, 8888),
-            new Employee("王五", 28, 1999),
-            new Employee("赵六", 48, 7777),
-            new Employee("天启", 58, 6666)
+            new Employee(1,"张三", 18, 9999),
+            new Employee(2,"里斯", 38, 8888),
+            new Employee(3,"王五", 28, 1999),
+            new Employee(4,"赵六", 48, 7777),
+            new Employee(5,"天启", 58, 6666)
     );
 
     @Test

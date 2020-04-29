@@ -14,7 +14,18 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Employee {
+
+    private Integer id;
     private String name;
     private Integer age;
     private double salary;
+
+    public Employee(int age){
+        this.age = age;
+    }
+
+    public Employee(int id,int age){
+        this.id = id;
+        this.age = age;
+    }
 }
