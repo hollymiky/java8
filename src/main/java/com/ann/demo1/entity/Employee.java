@@ -19,13 +19,21 @@ public class Employee {
     private String name;
     private Integer age;
     private double salary;
+    private Status status;
 
-    public Employee(int age){
+    public Employee(int age) {
         this.age = age;
     }
 
-    public Employee(int id,int age){
+    public Employee(int id, int age) {
         this.id = id;
         this.age = age;
+    }
+
+
+    public enum Status {
+        FREE,
+        BUSY,
+        VOCATION
     }
 }

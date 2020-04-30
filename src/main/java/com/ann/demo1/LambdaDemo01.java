@@ -39,11 +39,11 @@ public class LambdaDemo01 {
     //  需求1：列出当前企业中员工年龄大于35的员工信息
     //  需求2：列出当前企业中员工工资大于5000的员工信息
     List<Employee> employees = Arrays.asList(
-            new Employee(1,"张三", 18, 9999),
-            new Employee(2,"里斯", 38, 8888),
-            new Employee(3,"王五", 28, 1999),
-            new Employee(4,"赵六", 48, 7777),
-            new Employee(5,"天启", 58, 6666)
+            new Employee(1,"张三", 18, 9999, Employee.Status.FREE),
+            new Employee(2,"里斯", 38, 8888, Employee.Status.BUSY),
+            new Employee(3,"王五", 28, 1999, Employee.Status.VOCATION),
+            new Employee(4,"赵六", 48, 7777, Employee.Status.FREE),
+            new Employee(5,"天启", 58, 6666, Employee.Status.BUSY)
     );
 
     @Test
